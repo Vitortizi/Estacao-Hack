@@ -1,0 +1,38 @@
+if(nota > media){
+    console.log("Voce passou");
+}else{
+    console.log("Estude mais");
+}
+
+
+let: media = 7;
+
+if(nota => 7){
+    alert("Voce passou");
+        prompt("Voce passou");
+
+}
+
+  nome = prompt("Digite seu nome");
+	idade = prompt("Digite seu nome");
+
+if( idade > 21 && idade < 50) && (){
+
+}
+else if{
+}
+else if{
+	
+}
+
+
+teste
+
+let: idade = prompt("Insira sua idade");
+let: salario = prompt("Insira seu salario");
+let: emprestimo = prompt("Insira o valor desejado");
+if(( idade > 21 && idade) < 55 && (emprestimo<salario*10)){
+    alert("Emprestimo aceito");
+}else{
+    alert("Emprestimo não foi aceito")
+}

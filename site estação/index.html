@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de exemplo do FDS</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body> <!-- corpo do site-->
+    <nav>   
+        <ul>  
+            <img  id="logotipo" src="imagens/gota.png" alt="Logo do app">        
+            <li><a href="">Home</a> </li>
+            <li><a href="">Sobre</a> </li>
+            <li><a href="">Calcule</a> </li>
+            <li><a href="">Manual Ecô!</a> </li>
+            <li><a href="contato.html">Contato</a> </li>
+        </ul>
+    </nav>
+    <header> <!--CABEÇALHO-->
+        <div class="banner">
+            
+            <h2 style="font-size: 80px; font-family: new cetury;"><p> A gota d'água </p>
+                <center><button class="cadastrar">Cadastro</button></center>
+            </h2>
+        </div>
+    </header>
+    
+    <section>
+        <center>
+                <h2 style="font-size: 40px;">Sobre nós</h2>
+                <p class="lorem">  O aplicativo "A gota d'agua" foi criado para auxiliar as pessoas no controle do gasto de água, assim economizando mais e visando um futuro mais sustentavél.
+                    </p>
+        </center>
+        <center>
+            <h2 style="font-size: 40px;">Noticias</h2>
+            
+            <center>
+                <div class="card">  
+                    <h2>Reutilize</h2>
+                    <img class="noticia" src="imagens/noticia1.jpg" > 
+                    <p>Cresce procura por sistema de captação de água da chuva..</p>
+                </div>
+                
+                <div class="card">
+                    <h2>Economize</h2>
+                    <img class="noticia" src="imagens/agua.png" >
+                    <p> Veja aqui dicas para diminuir o seu consumo e acabar com o disperdício.  
+                        </p>
+                </div>
+                <div class="card">
+                    <h2>Cuide</h2>
+                    <img class="noticia" src="imagens/noticia2.png" >
+                    <p > Aprenda a fazer um sistema de captação de água caseiro.</p>
+                </div>
+            </center>
+        </section>
+        <footer class="rodape">
+
+            <center>  <h2 style="color: white;">Faça Download</h2>
+                <img class="play" src="imagens/play.png" alt="">
+                <img class="play" src="imagens/store.png" alt="">
+            </center>   
+            <div style="float: right;">
+                <img class="icones" src="imagens/fb.png" alt="">
+                <img class="icones" src="imagens/twitter.png" alt="">
+                <img class="icones" src="imagens/inst.png" alt="">
+            </div>
+        </footer>
+        <script>
+            let cadastro = document.querySelector(".cadastrar");
+            undefined;
+            cadastro.addEventListener('click', function(){
+                prompt("digite seu email:")
+                prompt("digite seu usuário:")
+                prompt("digite sua senha:")
+                alert("Usuário cadastrado com sucesso!");})
+        </script>
+    </body>
+    </html>
