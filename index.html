@@ -1,58 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página de exemplo do FDS</title>
-    <link rel="stylesheet" href="estilos/estilo.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body> <!-- corpo do site-->
-    <header> <!--CABEÇALHO-->
-        <nav> <!--DEFINIÇÃO DOS ITENS DO MENU-->
-            <ul>        
-                
-                <li style="float: right;"><img  id="logotipo" src="imagens/gota.png" alt="Logo do app"></li> 
-                <li><a href="">Home</a> </li>
-                <li><a href="">Sobre</a> </li>
-                <li><a href="">Calcule</a> </li>
-                <li><a href="">Manual Ecô</a> </li>
-            </ul>
-        </nav>
-            <div class="central">
-                <img class="tamanhoPrincipal" src="imagens/principal.jpg" alt="Logo do app">
 
-                <h2 class="central">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ipsam exercitationem distinctio, facere recusandae ratione minima! Consequuntur, qui odio sequi ea, rem dolorem nulla fuga error, quos quod incidunt tempore!</h2>
-            </div>
-    </header>
-    <div>               
-    </div>
-    <section>
-        <center>
-        <div class="row">
-            <div class="column">
-                <img class="noticia" src="imagens/noticia1.jpg"  alt="FACEBOOK"> <!--imagens do rodapé-->
-                <h2 class="noticiaTexto">Cresce procura por sistema de captação de água da chuva.
-                    </h2>
-            </div>
-            <div class="column">
-                <img class="noticia" src="imagens/noticia2.jpg"  alt="twitter">
-                <h2 class="noticiaTexto">   Aprenda a fazer um sistema de captação de água caseiro.  
-                    </h2>
-            </div>
-            <div class="column">
-                <img class="noticia" src="imagens/noticia3.jpg"  alt="inst">
-                <h2 class="noticiaTexto"> Sabesp reqalizara novas obras no sistemas alto tiête.</h2>
-            </div>
-        </div>
-    </center>
+<body>
+    <nav class="dotes">
+        <ul>
+            <li>
+                <a href="#home" data-number="home" id="isHome" class="selected">
+                    <span class="round-dote"></span>
+                    <span class="text-dote">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#about" data-number="about" id="isAbout">
+                    <span class="round-dote"></span>
+                    <span class="text-dote">About</span>
+                </a>
+            </li>
+            <li>
+                <a href="#section3" data-number="3">
+                    <span class="round-dote"></span>
+                    <span class="text-dote">Features</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home">
     </section>
-    <footer>
-            <p>Posted by: Hege Refsnes</p>
-            <p>Contact information: <a href="mailto:someone@example.com">
-            someone@example.com</a>.</p>
-    </footer>
 
+    <section id="about">
+    </section>
 </body>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </html>
