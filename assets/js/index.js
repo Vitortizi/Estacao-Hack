@@ -1,4 +1,10 @@
-$("a").click(function() {
+$(document).ready(function () {
+    $('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 600);
+});
+
+$("a").click(function () {
     const id = $(this).data('number');
 
     console.log(id)
