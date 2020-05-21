@@ -11,7 +11,7 @@
 
 <body>
     <nav class="dotes">
-        <ul>
+        <ul id="ul-pages">
             <li>
                 <a href="#home" data-number="home" id="isHome" class="selected">
                     <span class="round-dote"></span>
@@ -21,11 +21,11 @@
             <li>
                 <a href="#about" data-number="about" id="isAbout">
                     <span class="round-dote"></span>
-                    <span class="text-dote">About</span>
+                    <span class="text-dote">Sobre</span>
                 </a>
             </li>
             <li>
-                <a href="#section3" data-number="3">
+                <a href="#section3" data-number="section3" id="isSelection">
                     <span class="round-dote"></span>
                     <span class="text-dote">Features</span>
                 </a>
@@ -33,12 +33,24 @@
         </ul>
     </nav>
 
-    <section id="home">
-    </section>
+    <main>
+        <div id="home" class="container">
+            <div class="text-home">
+                <h1 class="text-center text-size-home">A gota d'água</h1>
+                <img src="./assets/img/gota.png" width="100">
+            </div>
+            <img src="./assets/img/drip-921067_1920.jpg" alt="" class="img-home">
+        </div>
+    
+        <div id="about" class="container">
+        </div>
 
-    <section id="about">
-    </section>
+        <div id="section3" class="container">
+        </div>
+    </main>
 </body>
-    <script src="./assets/js/jquery-3.4.1.min.js"></script>
-    <script src="./assets/js/index.js"></script>
+
+<script src="./assets/js/jquery-3.4.1.min.js"></script>
+<script src="./assets/js/index.js"></script>
+
 </html>

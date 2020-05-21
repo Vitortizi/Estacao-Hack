@@ -6,8 +6,14 @@ $(document).ready(function () {
 
 $("a").click(function () {
     const id = $(this).data('number');
+    const idSel = $(this).attr('id');
 
-    console.log(id)
+    $('#ul-pages li a').each(function(index, element) {
+        $(element).removeClass('selected');
+    });
+
+    $('#' + idSel).addClass('selected');
+
     if (typeof id == 'string') {
         $('html, body').animate({
             scrollTop: $("#" + id).offset().top
